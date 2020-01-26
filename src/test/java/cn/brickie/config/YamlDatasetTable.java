@@ -25,8 +25,9 @@ class YamlDatasetTable implements ITable {
         return meta;
     }
 
+    @Override
     public Object getValue(int row, String column) throws DataSetException {
-        if (data.size() <= row) {
+        if (data.size() <= row || row == -1) {
             throw new RowOutOfBoundsException("" + row);
         }
         return data.get(row).get(column.toUpperCase());

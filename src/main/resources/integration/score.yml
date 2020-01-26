@@ -1,0 +1,60 @@
+score:
+  - id: 1
+    student_id: 1
+    course_id: 1
+    score:  68
+
+  - id: 2
+    student_id: 1
+    course_id: 2
+    score:  70
+
+  - id: 3
+    student_id: 1
+    course_id: 3
+    score:  99
+
+  - id: 4
+    student_id: 2
+    course_id: 1
+    score:  80
+
+  - id: 5
+    student_id: 2
+    course_id: 2
+    score:  90
+
+  - id: 6
+    student_id: 2
+    course_id: 3
+    score:  75
+
+  - id: 7
+    student_id: 3
+    course_id: 1
+    score:  88
+
+  - id: 8
+    student_id: 3
+    course_id: 2
+    score:  98
+
+  - id: 9
+    student_id: 3
+    course_id: 3
+    score:  50
+
+  - id: 10
+    student_id: 4
+    course_id: 1
+    score:  80
+
+  - id: 11
+    student_id: 4
+    course_id: 2
+    score:  59
+
+  - id: 12
+    student_id: 4
+    course_id: 3
+    score:  62

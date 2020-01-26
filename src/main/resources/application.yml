@@ -13,3 +13,14 @@ spring:
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
+
+  flyway:
+    # 是否启用flyway
+    enabled: true
+    # 迁移sql脚本文件存放路径，默认db/migration
+    locations: classpath:sql
+    # 迁移时是否进行校验，默认true
+    validateOnMigrate: true
+    # 设置为true，当迁移发现数据库非空且存在没有元数据的表时，自动执行基准迁移，新建schema_version表
+    baselineOnMigrate: true
+    schemas: test
